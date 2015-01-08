@@ -99,9 +99,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf
 
-# Torch
-#PRODUCT_PACKAGES += \
-#    Torch
+# SoundRecorder
+PRODUCT_PACKAGES += \
+    SoundRecorder
+
+# Stk
+PRODUCT_PACKAGES += \
+    Stk
 
 # Wifi
 PRODUCT_PACKAGES += \
